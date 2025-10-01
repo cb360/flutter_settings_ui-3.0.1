@@ -46,5 +46,7 @@ DevicePlatform detectPlatform(BuildContext context) {
       return DevicePlatform.macOS;
     case TargetPlatform.windows:
       return DevicePlatform.windows;
+    case TargetPlatform.ohos:
+      return DevicePlatform.android;
   }
 }
